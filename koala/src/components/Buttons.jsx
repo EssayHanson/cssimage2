@@ -5,9 +5,9 @@ class Buttons extends Component {
     render() {
         return (
             <div>
-                <button></button>
+                <button>{this.props.text1}</button>
                 <br/>
-                <button></button>
+                <button>{this.props.text2}</button>
             </div>
         )
     }
