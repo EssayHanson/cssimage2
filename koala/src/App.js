@@ -1,10 +1,10 @@
 import React from 'react';
-import Koala from './components/Village/Koala';
+import Buttons from './components/Buttons';
 import './App.css';
 
 function App() {
   return (
-    <Koala/>
+      <Buttons/>
   );
 }
 
